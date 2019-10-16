@@ -5,13 +5,69 @@
     <title></title>
   </head>
   <body>
-    <h1 id="title">"Hello World, we are software developers!"</h1>
+    <h1 id="title">Car Brand Preference Survey</h1>
     <p id="description">"Someting"</p>
     <form id="survey-form">
-      <input type="text" name="" value="" id="name">
-      <input type="email" name="" value="" id="email">
-      <input type="number" name="" value="" id="number">
-    </form>
+      <div>
+        <input type="text" name="" value="" id="name" />
+        <label id="name-label">Name</label>
+        <p class="form-labels">
+          Please introduce your full name.
+        </p>
+      </div>
+      <div>
+        <input type="email" name="" value="" id="email" />
+        <label id="email-label">email</label>
+        <p class="form-labels">
+          Please introduce your correct email address.
+        </p>
+      </div>
+      <div>
+        <input type="number" name="" value="" id="number" />
+        <label id="number-label">number</label>
+        <p class="form-labels">
+          Please introduce your telephone number.
+        </p>
+      </div>
+      <div>
+        <select id="dropdown" class="dropdown">
+          <option value="">Nothing</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="birds">Birds</option>
+        </select>
+        <div>
+          <label class="radio"
+            ><input type="radio" value="" name="radio1" />Male</label
+          >
+          <label class="radio"
+            ><input type="radio" value="" name="radio1" />Female</label
+          >
+        </div>
+        <div>
+          <input type="checkbox" name="brands" value="" />Ford
 
+          <input type="checkbox" name="brands" value="" />Toyota
+
+          <input type="checkbox" name="brands" value="" />Nissan
+
+          <input type="checkbox" name="brands" value="" />Ferrari
+
+          <input type="checkbox" name="brands" value="" />Peugeot
+        </div>
+        <div>
+          <textarea
+            id="comments"
+            type="text"
+            rows="4"
+            name="comments"
+            placeholder="additional comments..."
+          ></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </div>
+    </form>
   </body>
 </html>
