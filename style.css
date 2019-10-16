@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: darkolivegreen;
+}
+
+main {
+  max-width: 600px;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -210px; /* (width + padding)/2 */
+  margin-top: 100px; /* (height + padding)/2 */
+  position: relative;
+  background: #fff;
+}
